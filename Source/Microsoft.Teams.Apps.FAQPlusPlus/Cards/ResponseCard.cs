@@ -36,11 +36,6 @@ namespace Microsoft.Teams.Apps.FAQPlusPlus.Cards
                         Text = Strings.ResponseHeaderText,
                         Wrap = true,
                     },
-                    {
-                        Weight = AdaptiveTextWeight.Bolder,
-                        Text = Strings.ResponseHeaderText,
-                        Wrap = true,
-                    },
                     new AdaptiveTextBlock
                     {
                         Text = question,
