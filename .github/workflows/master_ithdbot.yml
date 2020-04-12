@@ -31,5 +31,5 @@ jobs:
       with:
         app-name: 'ithdbot'
         slot-name: 'production'
-        publish-profile: ${{ secrets.AzureAppService_PublishProfile_67d7b3f796a84942abed504182464bba }}
+        publish-profile: ${{ secrets.AzureAppService_PublishProfile_18271454ff104ecda4db73516a0f04e7 }}
         package: ${{env.DOTNET_ROOT}}/myapp 
